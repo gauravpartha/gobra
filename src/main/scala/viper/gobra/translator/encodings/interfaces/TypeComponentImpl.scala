@@ -385,7 +385,7 @@ class TypeComponentImpl extends TypeComponent {
   }
 
   override def finalize(addMemberFn: vpr.Member => Unit): Unit = {
-    addMemberFn(genDomain)
+    //addMemberFn(genDomain)
   }
 
 }
